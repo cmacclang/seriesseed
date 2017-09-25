@@ -1,0 +1,33 @@
+// Entity
+
+$ sign_Entity = [./_entity.cmacc]
+
+// Person signing
+
+$ sign_Rep = [./_individual.cmacc]
+
+$ sign_Rep_Title = sign_Rep.sign_Title
+
+// Signature date and place
+
+$ sign_Place = "sign_Place"
+
+$ sign_Date = "sign_Date"
+
+$ sign_Signature = "...please sign here..."
+
+// Signature block
+
+{{sign_Entity.full_Name}}
+
+Role: {{sign_Rep_Title}}
+
+Name: {{sign_Rep.full_Name}}  
+
+Place: {{sign_Place}}
+
+Date: {{sign_Date}}
+
+{{sign_Signature}}
+
+---

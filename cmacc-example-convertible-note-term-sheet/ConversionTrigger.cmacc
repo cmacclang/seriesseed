@@ -1,0 +1,9 @@
+// list option: how will the notes convert?
+
+$ conversion_Trigger_0 = "...please select how the notes will convert"
+
+$ conversion_Trigger_1 = "automatically without any further action by such Investor"
+
+$ conversion_Trigger_2 = "upon the election of the Majority Holders"
+
+$ conversion_Trigger_3 = "upon the election of such Investor"

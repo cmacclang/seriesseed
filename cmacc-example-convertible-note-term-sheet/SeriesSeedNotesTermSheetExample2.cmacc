@@ -1,0 +1,93 @@
+// Parameters
+
+// Party 1 info
+
+$ party1 = [./_entity.cmacc]
+
+// Party 2 info
+
+$ party2 = [./_entity.cmacc]
+
+// External files
+
+$ intro = [./TermSheetIntro.cmacc]
+$ intro.company_Name = party1.full_Name
+
+$ financing_Amounts = [./FinancingAmounts.cmacc]
+
+$ promisory_Notes = [./PromissoryNotes.cmacc]
+
+$ change_Of_Control = [./ChangeOfControl.cmacc]
+
+$ pre_Payment = [./PrePayment.cmacc]
+
+$ security = [./Security.cmacc]
+
+$ documentation = [./Documentation.cmacc]
+
+$ expenses = [./Expenses.cmacc]
+
+$ closing = [./TermSheetClosing.cmacc]
+
+$ exhibit_A = [./ExhibitA.cmacc]
+
+// Options selected
+
+// In this example we will take the "Investors" option
+$ financing_Amounts.financing_Option_Title = financing_Amounts.investors_Option_Title
+$ financing_Amounts.financing_Option_Sec = financing_Amounts.investors_Option_Sec
+
+// In this exemple we will use simple_Interest
+$ promisory_Notes.interest_Option = promisory_Notes.interest_Simple
+$ promisory_Notes.interest_Frequency = promisory_Notes.interest_Compound_Frequency
+
+// In this example we will use maturity date defined by duration
+$ promisory_Notes.maturity_Date = promisory_Notes.maturity_Duration_Option
+
+// in this example we will select Qualified Financing
+$ conversion = [./ConversionAtMaturity.cmacc]
+$ conversion.pre_Agreed_Valuation = "1,000,000.00"
+
+// option: how will the notes convert?
+$ conversion_Trigger_Options = conversion.conversion_Trigger_Options
+$ conversion.conversion_Trigger_Selected = conversion_Trigger_Options.conversion_Trigger_1
+
+// option: convert into what?
+$ conversion_To_Options = conversion.conversion_To_Options
+$ conversion.conversion_To_Selected = conversion_To_Options.conversion_To_New_Series
+
+// option: details of what is included? 
+$ conversion_Maturity_Including_Options = conversion.conversion_Maturity_Including_Options
+$ conversion.conversion_Maturity_Including_Option_Selected = conversion_Maturity_Including_Options.conversion_Maturity_Including_Shares
+
+// option: reference date
+$ convertion_Date_Reference_Options = conversion.convertion_Date_Reference_Options
+$ conversion.conversion_Date_Reference_Option_Selected = convertion_Date_Reference_Options.conversion_Date_Reference_Maturity
+
+// Content
+
+# TERM SHEET FOR CONVERTIBLE PROMISSORY NOTE FINANCING OF {{party1.full_Name}}
+
+{{intro}}
+
+{{financing_Amounts}}
+
+{{promisory_Notes}}
+
+{{conversion}}
+
+{{change_Of_Control}}
+
+{{pre_Payment}}
+
+{{security}}
+
+{{documentation}}
+
+{{expenses}}
+
+{{closing}}
+
+***
+
+{{exhibit_A}}

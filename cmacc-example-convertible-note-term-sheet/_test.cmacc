@@ -1,0 +1,34 @@
+// Parameters
+
+// External files
+
+$ conversion = [./ConversionAtQualifiedFinancing.cmacc]
+
+// Options selected
+
+// pricing option selected - in this example we will use option 2
+$ conversion.conversion_Price = conversion.conversion_Price_2
+$ conversion.conversion_Percentage = "10"
+$ conversion.minimum_Aggregate_Sales_Price = "1,000,000.00" 
+
+// in this example we will use the date of the Note for conversion price date reference
+$ conversion.conversion_Price_Reference_Selected = conversion.conversion_Price_Reference_Note
+
+// in this example we will use timing is while the note is outstanding
+$ conversion.conversion_Timing_Option_Selected = conversion.conversion_Timing_Note_Outstanding
+
+// in this example we will take all shares and equity into account in the conversion
+$ conversion.conversion_Equity_Included_Option = conversion.conversion_Equity_Included_All
+
+// in this example we will use conversion protection
+$ conversion.conversion_Protection_YN = conversion.conversion_Protection_Yes
+
+// in this example we will use optional conversion at non qualified financing
+$ conversion.optional_conversion_At_Non_Qualified_Financing_YN = conversion.optional_conversion_At_Non_Qualified_Financing_Yes
+
+// in this example the optional convertion can be triggered by majority holders
+$ conversion.optional_conversion_At_Non_Qualified_Financing_Benefit_Who = conversion.optional_conversion_At_Non_Qualified_Financing_Benefit_Majority_Holders
+
+// Content
+
+{{conversion}}

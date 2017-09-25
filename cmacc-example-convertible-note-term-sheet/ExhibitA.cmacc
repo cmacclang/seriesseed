@@ -1,0 +1,13 @@
+// External files
+
+$ terms_Of_Series_Preferred_Stock = [./TermsOfSeriesPreferredStock.cmacc]
+
+$ investors_Rights = [./InvestorsRights.cmacc]
+
+// Content
+
+# EXHIBIT A
+
+{{terms_Of_Series_Preferred_Stock}}
+
+{{investors_Rights}}

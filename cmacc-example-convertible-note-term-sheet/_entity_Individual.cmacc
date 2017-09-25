@@ -1,0 +1,19 @@
+$ individual = [./_individual.cmacc]
+
+$ full_Name = individual.full_Name
+
+$ formal_Name = "name_Dear"
+
+$ gov_ID_Number = "gov_ID_Number"
+
+$ entity_a = "an individual"
+
+$ adr = "address"
+
+$ adr_Type = "personal"
+
+$ sign_Rep = [./_individual.cmacc]
+
+$ sign_Rep_Title = "Self"
+
+$ pron = [./_sing.cmacc]

@@ -1,0 +1,21 @@
+// Parameters
+
+$ financing_Option_Title = "...financing option title..."
+
+$ financing_Option_Sec = "...financing option text..."
+
+$ financing_Amount_Option_Title = "Financing Amount"
+
+$ financing_Amount = "...please enter financing amount..."
+
+$ financing_Amount_Option_Sec = "Up to ${{financing_Amount}} from investors identified by the Company (the "Investors", each an "Investor"). Amounts may be funded in multiple closings."
+
+$ investors_Option_Title = "Investors"
+
+$ investors_Option_Sec = "Investors shall be identified by the Company (the "Investors", each an "Investor"). Amounts may be funded in multiple closings."
+
+// Content
+
+### {{financing_Option_Title}}:
+
+{{financing_Option_Sec}}

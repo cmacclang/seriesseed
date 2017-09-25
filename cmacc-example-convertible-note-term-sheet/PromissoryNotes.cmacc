@@ -1,0 +1,35 @@
+// Parameters
+
+$ interest_Option = "...please enter interest option (simple or compound)..."
+
+$ interest_Frequency = "please enter interest frequency (for compounded only, simple is blank)..."
+
+$ interest_Simple = "Simple i"
+
+$ interest_Compound = "I"
+
+$ interest_Simple_Frequency = ""
+
+$ interest_Compound_Frequency = "compounded annually"
+
+$ interest_Rate = "...please enter interest rate..."
+
+$ maturity_Date = "...please enter maturity date option (defined by date or duration)..."
+
+$ maturity_Date_YYMMDD = "...please enter maturity date...]"
+
+$ maturity_Duration = "...please enter maturity duration..."
+
+$ maturity_Duration_Option = "the date which is {{maturity_Duration}} months from the initial closing"
+
+// Content
+
+### Promissory Notes:
+
+The Company shall issue promissory notes (the "Notes") in exchange for amounts invested by the Investors. The Notes will have the following principal provisions:
+
+Maturity:  Unless earlier repaid or converted, outstanding principal and unpaid accrued interest on the Notes shall be due and payable upon request of the Majority Holders made on or after {{maturity_Date}} (the "Maturity Date").
+
+Interest: {{interest_Option}}nterest shall accrue on an annual basis at the rate of {{interest_Rate}}% per annum{{interest_Frequency}}.
+
+Future Notes:  If, while the Notes are outstanding, the Company issues other indebtedness of the Company convertible into equity securities of the Company with material terms that are more favorable tothe Investor (the "Other Debt"), than the terms of the Notes, then the Company will provide each Investor with written notice thereof, together with a copy of all documentation relating to the Other Debt and, upon request of such Investor, any additional information related to the Other Debt as may be reasonably requested by such Investor. The Company will provide such notice to the Investors promptly (and in any event within 30 days) following the issuance of the Other Debt. In the event an Investor determines that the terms of the Other Debt are preferable to the terms of the Notes, such Investor will notify the Company in writing within five days following such Investor's receipt of such notice from the Company. Promptly after receipt of such written notice from such Investor, but in any event within 30 days, the Company will amend and restate such Investor's Note to be substantially identical to the promissory note evidencing the Other Debt, excluding the principal and accrued interest.

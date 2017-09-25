@@ -1,0 +1,58 @@
+// Parameteres
+
+// Party 1 info
+
+$ party1 = [./_entity.cmacc]
+
+// Party 2 info
+
+$ party2 = [./_entity.cmacc]
+
+// Parameters
+
+$ sign_Party1_Place = "sign_Party1_Place"
+
+$ sign_Party1_Date = "sign_Party1_Date"
+
+$ sign_Party1_Signature = "...Signature Party1 here..."
+
+$ sign_Party2_Place = "sign_Party2_Place"
+
+$ sign_Party2_Date = "sign_Party2_Date"
+
+$ sign_Party2_Signature = "...Signature Party2 here..."
+
+// Data binding
+
+$ sign_Party1 = [./_sign.cmacc]
+$ sign_Party1.sign_Rep = party1.sign_Rep
+$ sign_Party1.sign_Rep_Title = party1.sign_Rep_Title
+$ sign_Party1.sign_Place = sign_Party1_Place
+$ sign_Party1.sign_Date = sign_Party1_Date
+$ sign_Party1.sign_Signature = sign_Party1_Signature
+
+$ sign_Party2 = [./_sign.cmacc]
+$ sign_Party2.sign_Rep = party2.sign_Rep
+$ sign_Party2.sign_Rep_Title = party2.sign_Rep_Title
+$ sign_Party2.sign_Place = sign_Party2_Place
+$ sign_Party2.sign_Date = sign_Party2_Date
+$ sign_Party2.sign_Signature = sign_Party2_Signature
+
+// Content
+
+***
+This term sheet is non-binding and is intended solely as a summary of the terms that are currently proposed by the parties. The parties acknowledge that they neither intend to enter, nor have they entered, into any agreement to negotiate a definitive agreement pursuant to this term sheet, and either party may, at any time prior to execution of such definitive agreement, propose different terms from those summarized herein or unilaterally terminate all negotiations pursuant to this term sheet without any liability whatsoever to the other party. Each party shall be solely liable for all of its own fees, costs and other expenses in conjunction with negotiation and preparation of a definitive agreement pursuant to this term sheet.
+
+<table width="100%"><tr><td>
+
+{{sign_Party1}}
+
+Subscription Amount: $*____________________________________________*
+
+</td><td>
+
+{{sign_Party2}}
+
+Subscription Amount: *$____________________________________________*
+
+</td></tr></table>

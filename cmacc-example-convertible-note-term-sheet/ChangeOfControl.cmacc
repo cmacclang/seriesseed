@@ -1,0 +1,34 @@
+// Parameters
+
+$ multiple_Option_Yes = "then at each Investor's option, either (i) such"
+
+$ multiple_Option_No = "each"
+
+$ conversion_Price_Immediately_Prior = "immediately prior to the Change of Control"
+
+$ conversion_Price_Note_Date = "as of the date of such Investor's Note"
+
+$ pre_Agreed_Valuation = "...pre_Agreed_Valuation..."
+
+$ interest_Kicker = "...interest_Kicker..."
+
+$ multiple_Option_2nd_Option = ", or (ii) such Investor's Note shall be converted into shares of common stock at a conversion price equal to the quotient resulting from dividing ${{pre_Agreed_Valuation}} by the number of outstanding shares of common stock of the Company {{conversion_Price_Timing}} (assuming conversion of all securities convertible into common stock and exercise of all outstanding options and warrants, but excluding the shares of equity securities of the Company issuable upon the conversion of the Notes or other indebtedness)"
+
+$ additional_Payment_Yes = ", plus an additional payment equal to {{interest_Kicker}}% of the principal amount of such Investor's Note"
+
+$ additional_Payment_No = ""
+
+// Options selected
+
+// In this exemple multiple_Option_YN is set to Yes and conversion price is immediately prior to change of control
+
+$ multiple_Option_YN = multiple_Option_Yes
+
+$ conversion_Price_Timing = conversion_Price_Immediately_Prior
+
+// In this example additional payment is set to Yes
+$ additional_Payment_YN = additional_Payment_Yes
+
+// Content
+
+Change of Control:  If the Company is acquired prior to the Qualified Financing, {{multiple_Option_YN}} Investor shall receive a cash repayment equal to the outstanding principal and unpaid accrued interest {{additional_Payment_YN}} {{multiple_Option_2nd_Option}}.

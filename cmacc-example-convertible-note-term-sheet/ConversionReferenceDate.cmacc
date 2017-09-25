@@ -1,0 +1,6 @@
+// option: reference date
+$ conversion_Date_Reference_0 = "...please select the date reference for conversion..."
+
+$ conversion_Date_Reference_Note = "as of the date of the Note"
+
+$ conversion_Date_Reference_Maturity = "as of the Maturity Date"

@@ -1,0 +1,19 @@
+// Object - Individual
+
+$ first_Name = "name_First"
+
+$ last_Name = "name_Last"
+
+$ full_Name = "{{first_Name}} {{last_Name}}"
+
+$ name_Prefix = "name_Prefix"
+
+$ formal_Name = "{{name_Prefix}} {{last_Name}}"
+
+$ sign_Title = "sign_Title"
+
+$ adr = "address"
+
+$ adr_Type = "adr_Type"
+
+$ gender = [./_gender.cmacc]

@@ -1,0 +1,23 @@
+// Parameters
+
+$ pre_Agreed_Valuation = "...please enter pre-agreed valuation"
+
+// option: how will the notes convert?
+$ conversion_Trigger_Options = [./ConversionTrigger.cmacc]
+$ conversion_Trigger_Selected = conversion_Trigger_Options.conversion_Trigger_0
+
+// option: convert into what?
+$ conversion_To_Options = [./ConversionTo.cmacc]
+$ conversion_To_Selected = conversion_To_Options.conversion_To_0
+
+// option: details of what is included? 
+$ conversion_Maturity_Including_Options = [./ConversionMaturityIncluding.cmacc]
+$ conversion_Maturity_Including_Option_Selected = conversion_Maturity_Including_Options.conversion_Maturity_Including_0
+
+// option: reference date
+$ convertion_Date_Reference_Options = [./ConversionReferenceDate.cmacc]
+$ conversion_Date_Reference_Option_Selected = convertion_Date_Reference_Options.conversion_Date_Reference_0
+
+// Content
+
+Conversion at Maturity:  In the event that the Note remains outstanding on the Maturity Date, then the outstanding principal balance of the Investor's Note and any unpaid accrued interest shall {{conversion_Trigger_Selected}} convert into shares of {{conversion_To_Selected}} at a conversion price equal to the quotient resulting from dividing ${{pre_Agreed_Valuation}} by the number of outstanding shares of common stock of the Company {{conversion_Date_Reference_Option_Selected}} (assuming conversion of all securities convertible into common stock and exercise of all outstanding options and warrants,{{conversion_Maturity_Including_Option_Selected}} but excluding the shares of equity securities of the Company issuable upon the conversion of the Notes or other indebtedness).
